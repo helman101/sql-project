@@ -60,7 +60,7 @@ ORDER BY yr DESC
 SELECT winner, subject 
   FROM nobel
  WHERE yr=1984
- ORDER BY subject IN ('Physics','Chemistry'),subject,winner
+--ORDER BY subject IN('Physics','Chemistry'),subject,winner
 
 -- NOBEL QUIZ ANSWERS
 -- 1. answer
